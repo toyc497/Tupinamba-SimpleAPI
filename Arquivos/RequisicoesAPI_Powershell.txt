@@ -1,0 +1,8 @@
+Requisita uma nova chave
+Invoke-RestMethod -Uri http://127.0.0.1:8082/tupinamba/getkey -> GET
+
+Requisita atualização de Chave Bloqueada, passando ID
+http://127.0.0.1:8082/tupinamba/keybloqued/8 -> POST
+
+Requisita atualização de Chave Ativada, passando ID e SERIAL
+http://127.0.0.1:8082/tupinamba/keyactived/5/PE09TG7H -> POST
